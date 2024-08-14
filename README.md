@@ -3,7 +3,7 @@
 
 ONLY FOR WINDOWS XP & SERVER 2003. THIS PROGRAM IS NOT WORKING ON NEWER WINDOWS VERSIONS!
 
-For newer versions of Windows, please use version based on [tinker](https://github.com/SakuraSakuraro/imeigen/) or [pyqt5](https://github.com/SakuraSakuraro/imeigen_pyqt5/)
+For newer versions of Windows, please use version based on [tkinker](https://github.com/SakuraSakuraro/imeigen/) or [pyqt5](https://github.com/SakuraSakuraro/imeigen_pyqt5/)
 
 This adaptation for Windows XP is not forked from source code version 1.0.4. It is entirely based on alpha version (first non-public release), which was not published under any license, but this adaptation includes a number of improvements:
 
