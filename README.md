@@ -3,12 +3,20 @@
 
 ONLY FOR WINDOWS XP & SERVER 2003. THIS PROGRAM IS NOT WORKING ON NEWER WINDOWS VERSIONS!
 
-For newer versions of Windows, please use version based on [tkinker](https://github.com/SakuraSakuraro/imeigen/) or [pyqt5](https://github.com/SakuraSakuraro/imeigen_pyqt5/)
+For newer versions of Windows, please use version based on [tkinter](https://github.com/SakuraSakuraro/imeigen/) or [pyqt5](https://github.com/SakuraSakuraro/imeigen_pyqt5/)
 
 This adaptation for Windows XP is not forked from source code version 1.0.4. It is entirely based on alpha version (first non-public release), which was not published under any license, but this adaptation includes a number of improvements:
 
 1. Added an analog of dropdown list from version 1.0.4 (run with "-pm" flag)
 2. Added checking generated IMEIs by using Luhn algorithm (similar to 1.0.4, but realised differently)
+
+Allowed formatting for phone_models.txt file:
+
+(A-Z)(1-9)(A-Z)(1-9):device name:first 8 digits imei
+- (A-Z) - Uppercase letters (A to Z)
+- (1-9) - Digits (1 to 9)
+- device name - Name of the device (only Latin letters and other symbols)
+- first 8 digits imei - First 8 digits of the IMEI  (allowed only digits)
 
 Code from version 1.0.4 is not used in any way here, and I have full right to release it under Apache 2.0 license instead of GPLv3
 
